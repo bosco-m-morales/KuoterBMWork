@@ -1,4 +1,5 @@
 import React from "react";
+import kuoterLogo from "./kuoterLogo.png";
 
 export function Navbar() {
 	return (
@@ -6,13 +7,13 @@ export function Navbar() {
 			<div className="container">
 				<a href="#" className="navbar-brand">
 					<img
-						src="https://res.cloudinary.com/mhmd/image/upload/v1557368579/logo_iqjuay.png"
-						width="45"
+						src={kuoterLogo}
+						width="75"
 						alt=""
-						className="d-inline-block align-middle mr-2"
+						className="d-inline-block align-middle mr-3"
 					/>
-					<span className="text-uppercase font-weight-bold">
-						Company
+					<span className="font-weight-bold">
+						LMV Web Solutions Inc.
 					</span>
 				</a>
 
