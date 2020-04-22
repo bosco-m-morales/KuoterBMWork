@@ -9,15 +9,6 @@ import "bootstrap";
 import "../styles/index.scss";
 
 //render your react application
+import { App } from "./App";
 
-class Home extends React.Component {
-	render() {
-		return (
-			<div>
-				<h1>Its Britney Bitch</h1>
-			</div>
-		);
-	}
-}
-
-ReactDOM.render(<Home />, document.querySelector("#app"));
+ReactDOM.render(<App />, document.querySelector("#app"));
