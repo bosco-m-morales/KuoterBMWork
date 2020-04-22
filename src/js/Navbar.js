@@ -3,17 +3,17 @@ import kuoterLogo from "./kuoterLogo.png";
 
 export function Navbar() {
 	return (
-		<nav className="navbar navbar-expand-lg py-3 navbar-dark bg-dark shadow-sm">
+		<nav className="navbar navbar-expand-lg py-0 navbar-dark bg-dark shadow-sm">
 			<div className="container">
 				<a href="#" className="navbar-brand">
 					<img
 						src={kuoterLogo}
-						width="75"
+						width="80"
 						alt=""
 						className="d-inline-block align-middle mr-3"
 					/>
-					<span className="font-weight-bold">
-						LMV Web Solutions Inc.
+					<span className="font-weight-normal">
+						by Lomovon Web Solutions Inc.
 					</span>
 				</a>
 
